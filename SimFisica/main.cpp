@@ -1,5 +1,5 @@
 #include "cabecera.h"
-#include "MathFunctions.h"
+#include "mathFunctions.h"
 
 using namespace std;
 

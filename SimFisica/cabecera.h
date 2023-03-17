@@ -7,8 +7,7 @@
 #include <string>
 #include "string.h"
 
-#include "Definitions.h"
-
+#include "definitions.h"
 
 using namespace std;
 //---------------------------------------------------------------------------
@@ -1426,7 +1425,21 @@ public:
     };
     void guardarArchivo(string s)
     {
-        //Creaci�n de archivo con respuesta del receptor
+        //Creacion de archivo con respuesta del receptor
+        /**FILE *Archivo;
+        char buffer[50];
+        sprintf(buffer,"Data/Mat%s _%dx%d.txt",s.c_str(),tri, tim);
+        Archivo=fopen(buffer,"w");
+        for(int i=0; i<tri; i++)
+        {
+            for(int j=0; j<tim; j++)
+            {
+                fprintf(Archivo,"%g\t",ene[i][j]);
+            }
+            fprintf(Archivo,"\n");
+
+        }
+        fclose(Archivo);*/
         //Fin de creaci�n de archivo
     };
 
@@ -1474,11 +1487,37 @@ public:
     void guardarArchivo(int NTRI, string  s)
     {
         //Creacion de archivo con respuesta del receptor
+        /**FILE *Archivo;
+        char buffer[50];
+        sprintf(buffer,"Data/Mat%s_%dx%d.txt",s.c_str(),NTRI, NTRI);
+        Archivo=fopen(buffer,"w");
+        for(int i=0; i<NTRI; i++)
+        {
+            for(int j=0; j<NTRI; j++)
+            {
+                fprintf(Archivo,"%15g\t",d[i][j]);
+            }
+            fprintf(Archivo,"\n");
+
+        }
+        fclose(Archivo);*/
         //Fin de creacion de archivo
     }
     void guardarArchivoR(int NTRI, string  s)
     {
         //Creacion de archivo con respuesta del receptor
+        /**FILE *Archivo;
+        char buffer[50];
+        sprintf(buffer,"Data/Mat%s_%dx1.txt",s.c_str(),NTRI);
+        Archivo=fopen(buffer,"w");
+        for(int i=0; i<NTRI; i++)
+        {
+            fprintf(Archivo,"%15g\t",d[i][0]);
+
+            fprintf(Archivo,"\n");
+
+        }
+        fclose(Archivo);*/
         //Fin de creacion de archivo
     }
 };
@@ -1521,15 +1560,36 @@ public:
         }
     };
 
-
     void guardarArchivo(int NTRI)
     {
-        //Creacion de archivo con respuesta del receptor
-        //Fin de creaci�n de archivo
+        //Creacion de archivo con respuesta del receptor        FILE *Archivo;
+        /**char buffer[50];
+        sprintf(buffer,"Data/MatTiempo_%dx%d.txt",NTRI, NTRI);
+        Archivo=fopen(buffer,"w");
+        for(int i=0; i<NTRI; i++)
+        {
+            for(int j=0; j<NTRI; j++)
+            {
+                fprintf(Archivo,"%d\t",t[i][j]);
+            }
+            fprintf(Archivo,"\n");
+
+        }
+        fclose(Archivo);*/
+        //Fin de creacion de archivo
     }
     void guardarArchivoR(int NTRI)
     {
         //Creacion de archivo con respuesta del receptor
+        /**FILE *Archivo;
+        char buffer[50];
+        sprintf(buffer,"Data/MatTiempoReceptor_%dx1.txt",NTRI);
+        Archivo=fopen(buffer,"w");
+        for(int i=0; i<NTRI; i++)
+        {
+            fprintf(Archivo,"%d\t",t[i][0]);
+        }
+        fclose(Archivo);*/
         //Fin de creacion de archivo
     }
 
