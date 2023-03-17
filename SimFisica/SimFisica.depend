@@ -1,0 +1,111 @@
+# depslib dependency file v1.0
+1677617042 source:c:\users\josé lucio\documents\codeblocks\simfisica\main.cpp
+	"cabecera.h"
+	"MathFunctions.h"
+
+1677616688 c:\users\josé lucio\documents\codeblocks\simfisica\cabecera.h
+	<iostream>
+	<stdio.h>
+	<math.h>
+	"Definitions.h"
+
+1677615777 c:\users\josé lucio\documents\codeblocks\simfisica\definitions.h
+
+1677616688 c:\users\josé lucio\documents\codeblocks\simfisica\mathfunctions.h
+
+1678135174 source:c:\users\kvnsg\documents\modelos\intento 3\simfisica\main.cpp
+	"cabecera.h"
+	"MathFunctions.h"
+
+1678135564 c:\users\kvnsg\documents\modelos\intento 3\simfisica\cabecera.h
+	<iostream>
+	<stdio.h>
+	<math.h>
+	"Definitions.h"
+
+1678131551 c:\users\kvnsg\documents\modelos\intento 3\simfisica\definitions.h
+
+1677616688 c:\users\kvnsg\documents\modelos\intento 3\simfisica\mathfunctions.h
+
+1678227268 source:c:\users\labp415\documents\codeblocksvb\simfisica\main.cpp
+	"cabecera.h"
+	"MathFunctions.h"
+
+1678227863 c:\users\labp415\documents\codeblocksvb\simfisica\cabecera.h
+	<iostream>
+	<stdio.h>
+	<math.h>
+	<string>
+	"string.h"
+	"Definitions.h"
+
+1678131551 c:\users\labp415\documents\codeblocksvb\simfisica\definitions.h
+
+1677616688 c:\users\labp415\documents\codeblocksvb\simfisica\mathfunctions.h
+
+1678466909 source:c:\users\nahom\onedrive\documentos\epn\8. octavo semestre\modelos y simulación\simfisica\main.cpp
+	"cabecera.h"
+	"MathFunctions.h"
+
+1678466964 c:\users\nahom\onedrive\documentos\epn\8. octavo semestre\modelos y simulación\simfisica\cabecera.h
+	<iostream>
+	<stdio.h>
+	<math.h>
+	<string>
+	"string.h"
+	"Definitions.h"
+
+1678131551 c:\users\nahom\onedrive\documentos\epn\8. octavo semestre\modelos y simulación\simfisica\definitions.h
+
+1677616688 c:\users\nahom\onedrive\documentos\epn\8. octavo semestre\modelos y simulación\simfisica\mathfunctions.h
+
+1678480211 source:c:\users\vicky\documents\modelos\simfisica\main.cpp
+	"cabecera.h"
+	"MathFunctions.h"
+
+1678480211 c:\users\vicky\documents\modelos\simfisica\cabecera.h
+	<iostream>
+	<stdio.h>
+	<math.h>
+	<string>
+	"string.h"
+	"Definitions.h"
+
+1678131551 c:\users\vicky\documents\modelos\simfisica\definitions.h
+
+1677616688 c:\users\vicky\documents\modelos\simfisica\mathfunctions.h
+
+1678487389 source:c:\users\labp411\desktop\modelos\simfisica\simfisica\main.cpp
+	"cabecera.h"
+	"MathFunctions.h"
+
+1678486985 c:\users\labp411\desktop\modelos\simfisica\simfisica\cabecera.h
+	<iostream>
+	<stdio.h>
+	<math.h>
+	<string>
+	"string.h"
+	"Definitions.h"
+
+1678131551 c:\users\labp411\desktop\modelos\simfisica\simfisica\definitions.h
+
+1677616688 c:\users\labp411\desktop\modelos\simfisica\simfisica\mathfunctions.h
+
+1679031796 source:d:\repositorios\modelos-simulacion\simfisica\main.cpp
+	"cabecera.h"
+	"MathFunctions.h"
+
+1679031927 d:\repositorios\modelos-simulacion\simfisica\cabecera.h
+	<iostream>
+	<stdio.h>
+	<math.h>
+	<string>
+	"string.h"
+	<wchar.h>
+	<locale.h>
+	"Definitions.h"
+
+1678131552 d:\repositorios\modelos-simulacion\simfisica\definitions.h
+
+1677616690 d:\repositorios\modelos-simulacion\simfisica\mathfunctions.h
+
